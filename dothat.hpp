@@ -3,6 +3,8 @@
 
 #include <iostream>
 
-void printThis(int);
-
+extern "C"
+{
+    void printThis(int);
+}
 #endif

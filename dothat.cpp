@@ -1,7 +1,7 @@
 #include "dothat.h"
+#include <iostream>
 
-extern "C" {
-void printThis(int printerThing) {
-    std::cout << "Printing --> " << printerThing << std::cout;
-}
+void printThis(int printerThing)
+{
+    std::cout << "Printing --> " << printerThing << std::endl;
 }
